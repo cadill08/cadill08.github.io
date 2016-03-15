@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+      <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="./" class="navbar-brand">Parent Resource Page</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#">About the Library</a>
+        </li>
+				<li class="dropdown">
+	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shelving Information <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Action</a></li>
+	          <li><a href="#">Another action</a></li>
+	          <li><a href="#">Something else here</a></li>
+	          <li><a href="#">Separated link</a></li>
+	          <li><a href="#">One more separated link</a></li>
+	        </ul>
+	      </li>
+        <li>
+          <a href="#">Components</a>
+        </li>
+        <li>
+          <a href="#">JavaScript</a>
+        </li>
+        <li class="active">
+          <a href="#">Customize</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <header class="row">
+      
+      </header>
+<div class="row">
+    
+    
+        <div class="col-xs-4">
+    <div class="thumbnail"> 
+            <a href="#modalOne" data-toggle="modal">
+        <img class="img-responsive" src="img/ls.jpg">
+        </a>
+        <p class="caption">Lower School Library</p>
+            </div>
+    
+    
+    </div>
+        <div class="col-xs-4">
+    <div class="thumbnail"> 
+            <a href="#modalTwo" data-toggle="modal">
+        <img class="img-responsive" src="img/ms.jpg">
+        </a>
+        <p class="caption">Middle School Library</p>
+            </div>
+    
+    
+    </div>
+    <div class="col-xs-4">
+    
+     <div class="thumbnail"> 
+            <a href="#modalThree" data-toggle="modal">
+         <img class="img-responsive" src="img/us.jpg">
+         
+        </a>
+         <p class="caption">Upper School Library</p>
+            </div>
+    
+    
+    </div>
+    
+        </div>
+      
+     
+
+      <div class="modal fade" id="modalOne" role="dialog">
+      
+      <div class="modal-dialog">
+             <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;
+                        
+                        </button>
+                        <h4 class="modal-title">The Junior Library houses 9,200 books. </h4>
+                        <div class="modal-body">
+                            <img src="img/lsmodal.jpg" width="100%" height="100%">
+                        </div>
+                        
+                 </div>  
+            </div>
+          </div>
+          
+      
+      </div>
+      
+      
+      <div class="modal fade" id="modalTwo" role="dialog">
+      
+      <div class="modal-dialog">
+             <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;
+                        
+                        </button>
+                        <h4 class="modal-title">The middle school collection was created in 20__ to meet the growing needs of our middle school readers. It houses about 2,000 midddle grade fiction, non-fiction, and graphic novel titles. </h4>
+                        <div class="modal-body">
+                            <img src="img/msmodal.jpg" width="100%" height="100%">
+                        </div>
+                        
+                 </div>  
+            </div>
+          </div>
+          
+      
+      </div>
+      
+           <div class="modal fade" id="modalThree" role="dialog">
+      
+      <div class="modal-dialog">
+             <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;
+                        
+                        </button>
+                        <h4 class="modal-title">The Upper School Library is a space for socializing, studying, and access technology. </h4>
+                        <div class="modal-body">
+    
+                        </div>
+                        
+                 </div>  
+            </div>
+          </div>
+          
+      
+      </div>
+      
+      <div id="carousel-homepage" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-homepage" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src= "img/jumbotron.jpg">
+            <div class="carousel-caption">
+                <p>Because of your help, our librarians have more time to...</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="img/lsmodal.jpg">
+            <div class="carousel-caption">
+                <p>...recommend books to 356 students.</p>
+            </div>
+
+        </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-homepagea" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-homepage" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+      <script src="js/myjavascript.js"></script>
+  </body>
+</html>
